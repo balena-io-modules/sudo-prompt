@@ -37,5 +37,10 @@
     "url": "https://github.com/jorangreef/sudo-prompt/issues"
   },
   "homepage": "https://github.com/jorangreef/sudo-prompt#readme",
-  "scripts": {}
+  "scripts": {
+    "test": "echo 'Tests require user interaction, see ad-hoc scripts'",
+    "test:all": "npm run test:classic && npm run test:concurrent",
+    "test:classic": "node test.js",
+    "test:concurrent": "node test-concurrent.js"
+  }
 }
