@@ -1,6 +1,5 @@
 ---
 npm:
-  run: true
   platforms:
     - name: linux
       os: ubuntu

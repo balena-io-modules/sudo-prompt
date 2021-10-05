@@ -1,5 +1,5 @@
 {
-  "name": "sudo-prompt",
+  "name": "@balena/sudo-prompt",
   "version": "9.2.1",
   "description": "Run a command using sudo, prompting the user with an OS dialog if necessary",
   "main": "index.js",
