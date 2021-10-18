@@ -42,5 +42,8 @@
     "test:all": "npm run test:classic && npm run test:concurrent",
     "test:classic": "node test.js",
     "test:concurrent": "node test-concurrent.js"
+  },
+  "versionist": {
+    "publishedAt": "2021-10-18T12:27:17.533Z"
   }
 }

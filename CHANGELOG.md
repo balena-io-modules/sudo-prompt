@@ -5,6 +5,15 @@
 - Update TypeScript types to accommodate recent changes, see
 [#117](https://github.com/jorangreef/sudo-prompt/issues/117).
 
+## 9.2.1 - 2021-10-18
+
+* patch: Add repo.yml [Lorenzo Alberto Maria Ambrosi]
+* patch: Add basic test scripts [Lorenzo Alberto Maria Ambrosi]
+* patch: Use balena namespace for npm [Lorenzo Alberto Maria Ambrosi]
+* patch: Add .resinci.yml to enable balenaCI [Lorenzo Alberto Maria Ambrosi]
+* Copy cmd.exe if the path contains any of thes characters: ` ' " & | < > ^ [Alexis Svinartchouk]
+* Workaround issue #97 by copying cmd.exe into the temporary folder and running it from here [Alexis Svinartchouk]
+
 ## [9.1.0] 2019-11-13
 
 ### Added
