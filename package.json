@@ -40,5 +40,8 @@
     "url": "https://github.com/jorangreef/sudo-prompt/issues"
   },
   "homepage": "https://github.com/jorangreef/sudo-prompt#readme",
-  "scripts": {}
+  "scripts": {},
+  "versionist": {
+    "publishedAt": "2021-11-11T12:57:55.868Z"
+  }
 }
