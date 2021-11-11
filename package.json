@@ -31,7 +31,10 @@
     "elevate",
     "run as administrator"
   ],
-  "author": "Joran Dirk Greef",
+  "authors": [
+    "Joran Dirk Greef",
+    "Lorenzo Alberto Maria Ambrosi <lorenzothunder.ambrosi@gmail.com>"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jorangreef/sudo-prompt/issues"
