@@ -1,5 +1,5 @@
-var sudo = require('./');
-var exec = require('child_process').exec;
+import * as sudo from '../lib';
+import { exec } from 'child_process';
 
 function kill(end) {
   if (process.platform === 'win32') return end();
