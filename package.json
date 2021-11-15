@@ -2,8 +2,7 @@
   "name": "@balena/sudo-prompt",
   "version": "9.2.1",
   "description": "Run a command using sudo, prompting the user with an OS dialog if necessary",
-  "main": "index.js",
-  "types": "index.d.ts",
+  "main": "build/index.js",
   "files": [
     "LICENSE",
     "README.md",
@@ -15,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jorangreef/sudo-prompt.git"
+    "url": "git+https://github.com/balena-io-modules/sudo-prompt.git"
   },
   "keywords": [
     "sudo",
@@ -37,11 +36,20 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jorangreef/sudo-prompt/issues"
+    "url": "https://github.com/balena-io-modules/sudo-prompt/issues"
   },
-  "homepage": "https://github.com/jorangreef/sudo-prompt#readme",
-  "scripts": {},
-  "versionist": {
-    "publishedAt": "2021-11-11T11:59:42.128Z"
+  "homepage": "https://github.com/balena-io-modules/sudo-prompt#readme",
+  "scripts": {
+    "build": "tsc",
+    "postinstall": "npm run build",
+    "test": "echo 'Tests require user interaction, see ad-hoc scripts'",
+    "test:all": "npm run test:classic && npm run test:concurrent",
+    "test:classic": "ts-node tests/classic.ts",
+    "test:concurrent": "ts-node tests/concurrent.ts"
+  },
+  "devDependencies": {
+    "@types/node": "16.11.7",
+    "ts-node": "10.2.1",
+    "typescript": "4.4.3"
   }
 }
