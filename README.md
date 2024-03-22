@@ -1,3 +1,6 @@
+# Deprecated
+This project is deprecated and archived. Please don't use it for anything other than learning purposes.
+
 # sudo-prompt
 
 Run a non-graphical terminal command using `sudo`, prompting the user with a graphical OS dialog if necessary. Useful for background Node.js applications or native Electron apps that need `sudo`.
